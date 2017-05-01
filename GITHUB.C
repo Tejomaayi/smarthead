@@ -333,13 +333,13 @@ int main(int argc, char *argv[]) {
 	 else if (strcmp(argv[1], "4"))
 		sort_choice();
 	 else {
-	     choice();
 	 printf("WRONG CHOICE. PLEASE RE-ENTER.\n");
+         choice();		 
 	 exit(0);
 	}
   } else {
+  printf("INVALID ENTRY. PLEASENRE-ENTER");   
   choice();
-  printf("INVALID ENTRY");
   exit(0);
   }
   return 0;
